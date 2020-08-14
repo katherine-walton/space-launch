@@ -28,8 +28,11 @@ request.onload = function () {
       h1.textContent = agency.name;
 
       const p = document.createElement('p');
-      agency.countryCode = agency.countryCode.substring(0, 300);
-      p.textContent = `${agency.countryCode}`;
+      // agency.countryCode = agency.countryCode.substring(0, 300);
+      // p.textContent = `${agency.countryCode}`;
+
+      agency.wikiURL = agency.wikiURL.substring(0, 300);
+      p.textContent = `${agency.wikiURL}`;
 
       container.appendChild(card);
       card.appendChild(h1);
