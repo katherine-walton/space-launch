@@ -35,7 +35,9 @@ p {
   padding: 0 2.5rem 2.5rem;
   margin: 0;
   word-wrap: break-word;
+  white-space: pre-line;
 }
+
 
 .container {
   display: flex;
